@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images:{
+    images: {
         unoptimized: true
+    },
+    swcMinify: true,
+    experimental: {
+        forceSwcTransforms: true
     }
 };
 
